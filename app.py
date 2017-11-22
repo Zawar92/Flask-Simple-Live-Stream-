@@ -17,7 +17,7 @@ def index():
 
 #Get frames from An RTSP stream To get Frontal Faces
 def gen():
-	cam = "rtsp://admin:123@dmin123@10.16.0.101:554/cam/realmonitor?channel=5&subtype=0"
+	cam = "Your Rtsp stream"
 	cap = cv2.VideoCapture(cam)
 	#body_cascade = cv2.CascadeClassifier('static/haarcascade_frontalface_default.xml')
 	detector = dlib.get_frontal_face_detector()
